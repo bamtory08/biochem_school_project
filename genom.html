@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시퀀싱</title>
+</head>
+<body>
+    <div id="image">
+        <div id="title">
+            <br>
+            DNA 시퀀싱:
+            <br>인간과 컴퓨터가 협업하여 이룬 
+            <br>생명과학의 발전
+        </div>
+        <div id="line"></div>
+        <div id="lee">김태린</div>
+        <link rel="stylesheet" href="genom.css" type="text/css">
+    </div>
+    <div>
+        <img src="dnaa.png" alt="carbon" id="dna">
+    </div>
+    <div id="p1">
+        <span id="t1">인간 게놈 프로젝트</span>
+        <br>
+        <br>생물학에서 인간 유전자 염기서열은 궁극의 정보였다.
+        사람의 염기서열은 개개인의 생물적인 특징을 드러내는데,
+        이러한 염기서열이 규명되어야 <strong>인간 유전자에 대한 연구</strong>를 본격적으로 할 수 있게 된다.
+        그렇게 1990년, 인간 DNA 전체의 염기쌍을 해독하려고 하는
+        <strong>인간 게놈 프로젝트(HGP)</strong>가 시작되었다.
+    </div>
+    <div id="p2">
+        <span id="t2">Sanger Sequencing</span>
+        <br>
+        <br>인간 게놈 프로젝트에는 다양한 염기서열 분석 방식이 사용되었다.
+        <br>고전적인 방식으로 생거의 <strong>생거 방식(sanger sequencing)</strong>이 있다. 
+        <br>DNA 복제효소가 DNA를 합성하는 과정에서 
+        DNA 가닥을 <strong>계속 합성되도록 하는 디옥시뉴클레오티드(deoxynucleotide, dNTP)</strong>와 
+        DNA 가닥이 <strong>합성 도중 중단되도록 하는 
+        디디오식뉴클레오 티드(dideoxynucleotide, ddNTP)</strong>를 
+        적절한 비율로 섞어주어 연새반응 정지를 일으켜 무작위적으로 <strong>다양한 길이의 
+        DNA 합성 조각들</strong>이 만들어지도록 하는 기술이다.
+        이 가닥을 크기별로 구분하면 <strong>DNA의 염기서열</strong>을 알 수 있게 된다.
+        하지만 생거 시퀀싱은 <strong>많은 시간과 비용이 소요되어 효율이 낮다</strong>는 한계를 가지고 있다.
+        <img src="sanger.png" alt="sanger" id="sanger">
+    </div>
+    <div id="p3">
+        <span id="t3">Shotgun Sequencing</span>
+        <br>
+        <br><strong>생거 시퀀싱의 단점을 극복하고자 차세대 시퀀서(NGS)인 샷건 시퀀싱(shotgun seqeuncing)</strong>이 개발되었다.
+        이는 컴퓨터를 활용하여 <strong>산탄총 방식</strong>으로 염기서열을 재구성하는 기술이다.
+        산탄총이란 적당히 조준한 지점 주위로 여러 개의 탄알을 날려서 주변에
+        있을 사냥감을 운 좋게 맞추는 방식이다.
+        <br>
+        <br>
+        이 방식의 알고리즘은 이러하다:
+        <br><strong>1. 자르기</strong>
+        <br>유전자 실을 <strong>여러 개 복사하여, 임의로 짧게 자른다.</strong>
+        같은 유전자 실 여러개를 잘랐기 때문에 토막들은 서로 어느정도 겹친다.
+        각각의 토막의 염기서열을 판독한다.
+        <br>
+        <br><strong>2. 재구성하기</strong>
+        <br>수많은 염기서열 토막을 모두 모아서 하나의 실로 재구성하는 과정이다.
+        컴퓨터는 <strong>양 끝의 염기서열이 겹치는 토막</strong>을 차례로 찾아서 하나의 실로 재구성한다.
+        이는 문자열 토막들이 주어졌을 때, 이 <strong>모두를 포함하는 가장 짧은 하나의 문자열</strong>을
+        찾는 문제가 된다.
+        <img src="shotgun.png" alt="shot" id="shot">
+    </div>
+    <div id="p4">
+        <span id="t4">컴퓨터 활용의 효율성</span>
+        <br>
+        <br>인간 유전자에는 약 <strong>30억 개</strong>의 글자로 이뤄진 실이 있다.
+        실험실에서 쓰는 기자재 한 개로는 30억 개의 염기 가닥 중 약 
+        100여개의 염기만을 판독 할 수 있었다.
+        하지만 이 문제를 컴퓨터를 이용하여 보다 <strong>저렴하게 과감한
+        방식으로 해결</strong>할 수 있게 되었다.
+        <br>이처럼 컴퓨터는 다양한 능력으로 인간을 대신해주어,
+        인간 지능의 확상을 실현시켜준다.
+        <strong>인간과 컴퓨터가 손을 맞잡는다면 우리는 더 넓은
+        세상을 향해 한 걸음씩 나아갈 수 있을 것이다. </strong>
+    </div>
+    <button>
+        <a id="school" href="school.html">메인으로</a>
+    </button>
+</body>
+</html>

@@ -1,0 +1,124 @@
+
+
+
+body{
+    background: linear-gradient(to right, rgb(50, 74, 180), rgb(124, 18, 106))
+
+}
+#header{
+    height: 150px;
+    background-color: rgb(30, 24, 116);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-size: 20px;
+    padding: 13px;
+    font-weight: 700;
+}
+#project{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+#intro{
+    height: 120px;
+    background: linear-gradient(to right, rgb(10, 10, 100), rgb(49, 2, 41));
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(203, 205, 228);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px;
+}
+#outro{
+    height: 70px;
+    background: linear-gradient(to right, rgb(10, 10, 100), rgb(49, 2, 41));
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(203, 205, 228);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px;
+}
+a{
+    color: rgb(203, 205, 228);
+}
+#animal{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.233);
+    color: rgb(28, 30, 121);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 3px;
+    background-image: url("mouse.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+}
+
+#animal:active{
+    animation: slide 0.2s ease-out 0s 1 forwards running;
+}
+@keyframes slide {
+    from{transform: scale(1);}
+    to{transform: scale(1.2);}
+}
+
+#ex{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+#dunno{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.233);
+    color: rgb(11, 68, 4);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 3px;
+    background-image: url("chem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+}
+#ch{
+    color: rgb(255, 255, 255);
+}
+#dunno:active{
+    animation: slide 0.2s ease-out 0s 1 forwards running;
+}
+#genom{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.233);
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 3px;
+    background-image: url("dna.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+}
+#genom:active{
+    animation: slide 0.2s ease-out 0s 1 forwards running;
+}
+#last{
+    margin-top: 20px;
+    height: 100px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
