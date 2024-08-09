@@ -49,6 +49,7 @@ body.on{overflow: hidden; position: fixed; left: 0; top: 0; width: 100%; height:
     margin-top: 20px;
     margin-left: 10%;
     width: 80%;
+    max-height: 400px;
 }
 #number{
     color: rgb(202, 199, 243);
@@ -82,7 +83,7 @@ body.on{overflow: hidden; position: fixed; left: 0; top: 0; width: 100%; height:
     width: 80%;
     margin-top: 20px;
     margin-left: 10%;
-
+    max-height: 400px;
 }
 #p4{
     font-size: 14px;
@@ -97,6 +98,7 @@ body.on{overflow: hidden; position: fixed; left: 0; top: 0; width: 100%; height:
     width: 90%;
     margin-top: 30px;
     margin-left: 10px;
+    max-height: 400px;
 }
 #p5{
     font-size: 14px;

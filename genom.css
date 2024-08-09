@@ -49,6 +49,7 @@ body{
     width: 90%;
     margin-top: 20px;
     margin-left: 5%;
+    max-height: 350px;
 }
 #p2{
     font-size: 14px;
@@ -80,6 +81,7 @@ body{
     width: 90%;
     margin-top: 20px;
     margin-left: 5%;
+    max-height: 300px;
 }
 #p4{
     font-size: 14px;

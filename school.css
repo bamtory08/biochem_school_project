@@ -20,7 +20,7 @@ body{
     font-weight: 600;
 }
 #intro{
-    height: 120px;
+    height: 140px;
     background: linear-gradient(to right, rgb(10, 10, 100), rgb(49, 2, 41));
     margin-top: 10px;
     text-align: center;
