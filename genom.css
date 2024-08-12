@@ -96,6 +96,21 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+#p5{
+    font-size: 14px;
+    font-weight: 300;
+    background-color: rgb(73, 6, 48);
+    color: white;
+    margin-top: 40px;
+    padding: 15px;
+    height: 300px;
+}
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
 button{
     border: 0;
     background-color: rgb(138, 47, 92);
@@ -105,6 +120,9 @@ button{
     border-radius: 50px;
     margin-top: 30px;
     margin-left: 33%;
+}
+#school{
+    color: white;
 }
 #school:visited{
     color: white;

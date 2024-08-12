@@ -110,6 +110,15 @@ body.on{overflow: hidden; position: fixed; left: 0; top: 0; width: 100%; height:
     height: 200px;
 
 }
+#p6{
+    font-size: 14px;
+    font-weight: 300;
+    background-color: rgb(23, 23, 110);
+    color: white;
+    margin-top: 40px;
+    padding: 15px;
+    height: 230px;
+}
 button{
     border: 0;
     background-color: rgb(30, 35, 104);
@@ -119,6 +128,15 @@ button{
     border-radius: 50px;
     margin-top: 30px;
     margin-left: 35%;
+}
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+#school{
+    color: white;
 }
 #school:visited{
     color: white;
